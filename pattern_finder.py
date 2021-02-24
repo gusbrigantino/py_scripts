@@ -1,5 +1,5 @@
-str_input = "miaiscutea ndmiaiss exyandm iasbuttisnice"
-pattern = "butt"
+str_input = "aaaabbbbabbabbbaabaabsgsg"
+pattern = "aab"
 pat_indxs = []
 currStr = ""
 

@@ -18,9 +18,11 @@ for y in test_input:
     if (y >= average - std_dev and y <= average + std_dev):
         new_input.append(y)
 
+print(average)
+print(std_dev)
 
-print("Old input: ")
+print("Input: ")
 print(test_input)
 
-print("New input")
+print("Output: ")
 print(new_input)
