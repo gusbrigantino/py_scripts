@@ -1,3 +1,5 @@
+#string repace and split
+
 #gets average word length of a sentence
 blurb = "There once was a cat who lived in a vineyard. Her name was Finn, and she loved killing gophers."
 

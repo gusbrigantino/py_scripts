@@ -1,5 +1,7 @@
+#using a dict as a counter
+
 #finds unique chars in string
-test_input = "aaaabaaaaacssssaaaa"
+test_input = "aaaaaaaaaxssssaaaa"
 
 tracker = {}
 

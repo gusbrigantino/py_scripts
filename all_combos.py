@@ -1,3 +1,5 @@
+#creating a list of lists with for loops
+
 x = 1
 y = 1
 z = 1

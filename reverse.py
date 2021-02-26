@@ -1,5 +1,5 @@
 #reverses an int
-org_int = -88775544
+org_int = -1234567
 
 org_str = str(org_int)
 
@@ -16,7 +16,9 @@ new_str = ""
 for x in org_str:
     new_str = x + new_str
 
-new_str = "-" + new_str
+if (is_neg):
+    new_str = "-" + new_str
+
 int(new_str)
 print(new_str)
 

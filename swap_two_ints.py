@@ -1,4 +1,4 @@
-#swaps two ints with extra var
+#swaps two ints without extra var
 a = 5
 b = 101
 

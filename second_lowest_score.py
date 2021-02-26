@@ -1,3 +1,5 @@
+#two dict sort based on one's values, second lowest value, sorted call
+
 if __name__ == '__main__':
     names = ["Mia", "Gus", "Ted", "Bill", "Anthony"]
     scores = [99, 2, 24, 97, 24]
@@ -5,12 +7,12 @@ if __name__ == '__main__':
     desired_indxs = []
     
     for i in range(len(scores)):
-        midIndex = i
+        minIndex = i
         for j in range(i + 1, len(scores)):
-            if scores[midIndex] > scores[j]:
-                midIndex = j
-        scores[i], scores[midIndex] = scores[midIndex], scores[i]
-        names[i], names[midIndex] = names[midIndex], names[i]
+            if scores[minIndex] > scores[j]:
+                minIndex = j
+        scores[i], scores[minIndex] = scores[minIndex], scores[i]
+        names[i], names[minIndex] = names[minIndex], names[i]
     
     second = 0
     for i in range(len(scores)):

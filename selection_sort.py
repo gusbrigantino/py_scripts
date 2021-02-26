@@ -6,5 +6,7 @@ for i in range(len(test_input)):
         if test_input[minIndx] > test_input[j]:
             minIndx = j
     test_input[i], test_input[minIndx] = test_input[minIndx], test_input[i]
+    print(test_input)
 
+print("Final: ")
 print(test_input)
